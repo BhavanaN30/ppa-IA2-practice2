@@ -22,7 +22,8 @@ int sum_composite_numbers(int n,int a[n])
   }
   return sum;
 }
-void output(int n,int a[n],int sum){
+void output(int n,int a[n],int sum)\
+{
   int i;
   printf("the sum of array elements");
   for(i=0;i<n/2-1;i++){
